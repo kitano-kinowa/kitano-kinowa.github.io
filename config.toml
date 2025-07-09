@@ -1,0 +1,75 @@
+baseURL = "https://kitano-kinowa.com"
+title = "kinowa"
+author = "北野大輔"
+languageCode = "ja"
+DefaultContentLanguage = "ja"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  showBlog = false
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  [params.logo]
+    main = "img/logo/logo.svg"
+    alt = "kinowa"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "kinowa"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "kinowa corporate site"
+    meta_og_title = "kitano-kinowa.com"
+    meta_og_type = "website"
+    meta_og_url = "https://kitano-kinowa.com"
+    meta_og_image = ""
+    meta_og_description = "kinowa corporate site"
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@username"
+    meta_twitter_creator = "@username"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1

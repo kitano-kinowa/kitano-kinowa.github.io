@@ -1,0 +1,5 @@
+public
+resources
+tmp
+.env
+node_modules

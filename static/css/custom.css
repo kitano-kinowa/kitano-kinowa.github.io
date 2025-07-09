@@ -1,0 +1,53 @@
+/*
+ This CSS file is used to override the existing styles of the theme.
+ You can change the article headings, fonts, colors, etc.
+*/
+.kaisha {
+width: 100%;
+}
+
+.kaisha th,
+.kaisha td {
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+.kaisha th {
+font-weight: bold;
+background-color: #dedede; 
+}
+
+@media screen and (max-width: 767px) {
+.kaisha,
+.kaisha tr,
+.kaisha td,
+.kaisha th {display:block;}
+.kaisha th {width:auto;}
+}
+
+/* 販売実績セクションのスタイル */
+.sales-performance-card {
+    background: white;
+    text-align: center;
+    margin: 0 8px;
+    padding: 40px 16px;
+    transition: all 0.3s ease;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-performance-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.sales-performance-logo {
+    width: auto;
+    height: 64px;
+    margin: 0 auto 16px auto;
+    object-fit: contain;
+    object-position: center;
+}
