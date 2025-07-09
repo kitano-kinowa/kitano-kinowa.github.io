@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kinowa</title>
+    <link>https://kitano-kinowa.com/</link>
+    <description>Recent content on kinowa</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kitano-kinowa.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://kitano-kinowa.com/about/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://kitano-kinowa.com/about/</guid>
+      <description>&lt;table class=&#34;kaisha&#34;&gt;&#xA;   &lt;tr&gt;&#xA;      &lt;th&gt;会社名&lt;/th&gt;&#xA;      &lt;td&gt;kinowa&lt;/td&gt;&#xA;   &lt;/tr&gt;&#xA;   &lt;tr&gt;&#xA;      &lt;th&gt;所在地&lt;/th&gt;&#xA;      &lt;td&gt;〒856-0834　長崎県大村市上諏訪町1582-5&lt;/td&gt;&#xA;   &lt;/tr&gt;&#xA;   &lt;tr&gt;&#xA;      &lt;th&gt;電話番号&lt;/th&gt;&#xA;      &lt;td&gt;080-2722-9169&lt;/td&gt;&#xA;   &lt;/tr&gt;&#xA;   &lt;tr&gt;&#xA;      &lt;th&gt;メールアドレス&lt;/th&gt;&#xA;      &lt;td&gt;aka_0219@kitano-kinowa.com&lt;/td&gt;&#xA;   &lt;/tr&gt;&#xA;   &lt;tr&gt;&#xA;      &lt;th&gt;代表取締役&lt;/th&gt;&#xA;      &lt;td&gt;北野大輔&lt;/td&gt;&#xA;   &lt;/tr&gt;&#xA;   &lt;tr&gt;&#xA;      &lt;th&gt;事業内容&lt;/th&gt;&#xA;      &lt;td&gt;&#xA;        物販&#xA;      &lt;/td&gt;&#xA;   &lt;/tr&gt;&#xA;   &lt;tr&gt;&#xA;      &lt;th&gt;ビジネス実績&lt;/th&gt;&#xA;      &lt;td&gt;&#xA;        2024年Amazon販売　年商1700万円&lt;br&gt;&#xA;        2025年アマゾン販売　年商4000万着地予定&#xA;      &lt;/td&gt;&#xA;   &lt;/tr&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://kitano-kinowa.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kitano-kinowa.com/contact/</guid>
+      <description>&lt;p&gt;お問い合わせは以下のメールアドレスまでお願いいたします。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;メールアドレス：&lt;/strong&gt; aka.73537353@gmail.com&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
