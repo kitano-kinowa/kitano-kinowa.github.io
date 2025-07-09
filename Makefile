@@ -1,7 +1,7 @@
 # from https://github.com/uqichi/blog/blob/master/Makefile
 POST_DIR    := "content/post"
 FILE_DIR    := `date +'%Y/%m/%d'`
-GITHUB_DIR  := "tmp/enu-shop.github.io"
+GITHUB_DIR  := "tmp/kitano-kinowa.github.io"
 
 .DEFAULT_GOAL := help
 
@@ -17,7 +17,7 @@ edit: ## Edit specific post
 
 deploy: ## Deploy posts
 	hugo
-	rm -fr tmp && mkdir -p tmp && cd tmp && git clone https://ken-aio:${GITHUB_PAT}@github.com/enu-shop/enu-shop.github.io.git
+	rm -fr tmp && mkdir -p tmp && cd tmp && git clone https://ken-aio:${GITHUB_PAT}@github.com/kitano-kinowa/kitano-kinowa.github.io.git
 	rm -fr $(GITHUB_DIR)/*
 	cp -fr public/* $(GITHUB_DIR)/
 	cp CNAME public/
